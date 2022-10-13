@@ -1,0 +1,18 @@
+h1 {
+    color: rgb(212, 180, 241);
+    background-color: cornsilk;
+}
+
+p{
+    color: rgb(239, 136, 102);
+}
+
+#container1 {
+    background-color: chartreuse;
+    border: black 5px dotted ;
+}
+#container2 {
+    background-color: darkorchid;
+    height: 500px;
+    padding
+}
