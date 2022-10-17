@@ -1,0 +1,21 @@
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#selena {
+    float: right;
+    height: 300px;
+    border: 900px solid;
+    border-color: gainsboro;
+    border-top: 115%;
+    border-bottom: 700%;
+    border-width: 30px;
+}
