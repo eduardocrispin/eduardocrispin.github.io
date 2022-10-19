@@ -1,0 +1,63 @@
+#one {
+    background-color: rgb(255, 226, 199);
+    height: 40px;
+    width: 100%;
+    position: fixed;
+
+}
+nav ul {
+    list-style: none;
+
+}
+nav li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+#two {
+    background-color: rgb(235, 255, 199);
+    height: 40px;
+    width: 100%;
+    position: relative; 
+    top: 150px;
+
+}
+nav ul {
+    list-style: none;
+
+}
+nav li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+#three {
+    background-color: rgb(199, 249, 255);
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 150px;
+
+}
+nav ul {
+    list-style: none;
+
+}
+nav li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 1500px ;
+    position: relative;
+}
