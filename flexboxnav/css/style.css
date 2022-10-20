@@ -1,0 +1,36 @@
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    justify-content:flex-start;
+    justify-content: space-evenly;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(182, 236, 148);
+    padding: 10px;
+}
+
+#home {
+    margin-right: auto;
+}
+nav {
+    background-color: azure;
+    padding: 10px;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    ul {
+        flex-direction: column;
+    }
+    }
