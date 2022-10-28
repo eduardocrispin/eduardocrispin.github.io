@@ -1,184 +1,139 @@
-:root {
-    --bg: #f0f2f5;
-    --blue: #1877f2;
-    --dark-blue: #1360c4;
-    --white: #FFF;
-    --green: #42b72a;
-    --dark-green: #369423;
-  }
-  
-  
-  * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-  }
-  
-  body {
-    height: 100vh;
-    overflow: hidden;
-    background-color: var(--bg);
-    font-family: Helvetica, sans-serif;
-  }
-  
-  .main-wrapper {
-    width: 400px;
-    height: 680px;
-    margin: auto;
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .branding {
-    text-align: center;
-  }
-  
-  .logo {
-    color: var(--blue);
-    font-size: 3.7rem;
-    letter-spacing: -3px;
-  }
-  
-  .slogan {
-    font-size: 1.5rem;
-    font-weight: lighter;
-    margin: 20px 0;
-  }
-  
-  .panel {
-    background-color: var(--white);
-    width: 400px;
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 6px;
-    box-shadow: 0 3px 5px 2px rgba(150, 150, 150, 0.2);
-    text-align: center;
-  }
-  
-  input {
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 15px;
-    border: 1px solid #d2d2d2;
-    border-radius: 6px;
-  }
-  
-  input::placeholder {
-    font-size: 1.0rem;
-  }
-  
-  input:focus {
-    outline: 1px solid var(--blue);
-  }
-  
-  input:focus::placeholder {
-    color: #c2c2c2;
-  }
-  
-  .log-in-button {
-    background-color: var(--blue);
-    color: var(--white);
-    font-size: 1.2rem;
-    font-weight: bolder;
-    padding: 10px;
-    transition-property: background-color;
-    transition-duration: 100ms;
-    transition-timing-function: ease-in-out;
-  }
-  
-  .log-in-button:hover {
-    background-color: var(--dark-blue);
-    cursor: pointer;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  
-  .forgot {
-    font-size: 0.9rem;
-    color: var(--blue);
-  }
-  
-  hr {
-    margin: 18px 0;
-    opacity: 0.3;
-  }
-  
-  .register-button {
-    background-color: var(--green);
-    color: var(--white);
-    display: inline-block;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 6px;
-    font-weight: bolder;
-    transition-property: background-color;
-    transition-duration: 100ms;
-    transition-timing-function: ease-in-out;  
-  }
-  
-  .register-button:hover {
-    text-decoration: none;
-    background-color: var(--dark-green);
-  }
-  
-  .bottom-link {
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    font-size: 0.9rem;
-  }
-  
-  .page {
-    color: #000;
-    font-weight: bold;
-  }
-  
-  footer {
-    height: 100%;
-    background-color: var(--white);
-    padding: 25px 35px;
-  }
-  
-  ul {
-    max-width: 1000px;
-    margin: auto;
-    display: flex;
-  
-    flex-wrap: wrap;
-    list-style: none;
-    font-size: 0.75rem;
-    color: #7e7e7e;
-    line-height: 1.5;
-  }
-  
-  li {
-    margin-right: 15px;
-  }
-  
-  @media (min-width: 890px) {
-    .main-wrapper {
-      width: 90%;
-      max-width: 980px;
-      flex-direction: row;
-      padding-top: 70px;
-      justify-content: space-between;
-    }
-  
-    .branding {
-      text-align: left;
-      padding-top: 80px;
-      width: 480px;
-    }
-  
-    .slogan {
-      font-size: 1.7rem;
-    }
-  }
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/*Background Section Start*/
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(background.png);
+  background-size: cover;
+  position: relative;
+}
+body::before {
+  position: absolute;
+  content: "";
+  background: white;
+  width: 100%;
+  height: 100vh;
+  top: -70px;
+  opacity: 0.6;
+}
+/*Background Section end*/
+/*From Section Start*/
+form {
+  width: 425px;
+  height: 500px;
+  margin-left: 35%;
+  margin-top: 5%;
+  box-shadow: 0px 5px 8px 3px #aaaa;
+  border-radius: 5px;
+  background: white;
+  z-index: 10;
+  position: relative;
+}
+/*1st title and sub-title start*/
+.first_title {
+  font-size: 32px;
+  padding: 10px 10px 0px 10px;
+}
+#sub_title {
+  color: #606770;
+  margin-left: 10px;
+}
+hr {
+  margin-top: 10px;
+  opacity: 20%;
+}
+/*1st title and sub-title end*/
+/*Input section start*/
+#all {
+  width: 180px;
+  border-radius: 5px;
+  background: #e6e6e6;
+  height: 35px;
+  border: 1px solid #aaaa;
+  font-size: 15px;
+  margin-left: 12px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+#all1 {
+  width: 390px;
+  background: #e6e6e6;
+  height: 35px;
+  border: 1px solid #aaaa;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left: 12px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+/*Input section end*/
+/*Date of birth section start*/
+.sub_title_2 {
+  margin-top: 10px;
+  font-size: 12px;
+}
+select {
+  width: 125px;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 35px;
+  font-size: 15px;
+  background: none;
+  border: 1px solid #aaaa;
+  border-radius: 5px;
+}
+/*Date of birth section end*/
+/*Gender section start*/
+.sub_title_3 {
+  margin-top: 10px;
+  font-size: 12px;
+}
+#all_gender {
+  width: 110px;
+  height: 25px;
+  border: 1px solid #aaaa;
+  padding: 10px 0px 0px 10px;
+  border-radius: 5px;
+}
+.female {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.male {
+  margin-top: -38px;
+  margin-left: 151px;
+}
+.other {
+  margin-left: 290px;
+  margin-top: -38px;
+}
+/*Gender section end*/
+/*last section start*/
+.sub_title_4 {
+  margin-left: 10px;
+  font-size: 10px;
+  color: #606770;
+}
+.sub_title_4 a {
+  text-decoration: none;
+  color: blue;
+}
+.submit {
+  width: 200px;
+  height: 40px;
+  background: #0ebd02;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  margin-left: 25%;
+  margin-top: 20px;
+}
+.submit:hover {
+  opacity: 60%;
+}
+/*last section end*/
+/*From Section end/
