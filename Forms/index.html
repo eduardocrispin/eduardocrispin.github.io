@@ -9,18 +9,18 @@
 </head>
 <body>
     <div class="main">
-        <form>
+        <form action="https://getform.io/f/4a77db24-5e4d-4834-8028-14dfb58acb50" method="POST">
           <h2 class="first_title">Sign Up</h2>
           <p class="first_sub_title" id="sub_title">It's quick and easy.</p>
           <hr />
           <!--Input section start-->
           <div class="input">
-            <input type="text" placeholder="First Name" class="first_name" id="all" required />
-            <input type="text" placeholder="Sure Name" class="sure_name" id="all" required />
+            <input type="first_name" placeholder="First Name" class="first_name" id="all" required minlength="6" maxlength="40"/>
+            <input type="last_name" placeholder="Last Name" class="last_name" id="all" required  minlength="6" maxlength="40"/>
             <br />
-            <input type="email" placeholder="Mobile number or email address" id="all1" required />
+            <input type="email" placeholder="Mobile number or email address" id="all1" required  minlength="6" maxlength="40" />
             <br />
-            <input type="password" placeholder="New password" id="all1" required />
+            <input type="password" placeholder="New password" id="all1" required  minlength="6" maxlength="40"/>
             <br />
           </div>
           <!--Input section end-->

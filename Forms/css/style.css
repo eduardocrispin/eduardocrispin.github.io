@@ -18,8 +18,8 @@ body::before {
   top: -70px;
   opacity: 0.6;
 }
-/*Background Section end*/
-/*From Section Start*/
+
+
 form {
   width: 425px;
   height: 500px;
@@ -31,7 +31,7 @@ form {
   z-index: 10;
   position: relative;
 }
-/*1st title and sub-title start*/
+
 .first_title {
   font-size: 32px;
   padding: 10px 10px 0px 10px;
@@ -44,8 +44,7 @@ hr {
   margin-top: 10px;
   opacity: 20%;
 }
-/*1st title and sub-title end*/
-/*Input section start*/
+
 #all {
   width: 180px;
   border-radius: 5px;
@@ -56,6 +55,7 @@ hr {
   margin-left: 12px;
   margin-top: 10px;
   padding-left: 10px;
+  
 }
 #all1 {
   width: 390px;
@@ -68,8 +68,7 @@ hr {
   margin-top: 10px;
   padding-left: 10px;
 }
-/*Input section end*/
-/*Date of birth section start*/
+
 .sub_title_2 {
   margin-top: 10px;
   font-size: 12px;
@@ -84,8 +83,7 @@ select {
   border: 1px solid #aaaa;
   border-radius: 5px;
 }
-/*Date of birth section end*/
-/*Gender section start*/
+
 .sub_title_3 {
   margin-top: 10px;
   font-size: 12px;
@@ -109,8 +107,7 @@ select {
   margin-left: 290px;
   margin-top: -38px;
 }
-/*Gender section end*/
-/*last section start*/
+
 .sub_title_4 {
   margin-left: 10px;
   font-size: 10px;
