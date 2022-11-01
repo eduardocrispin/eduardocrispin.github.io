@@ -7,41 +7,48 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Form</title>
 </head>
+<!--Title Page-->
 <body>
   <div class="container">
     <div class="title">Contact</div>
     <div class="content">
       <form action="https://getform.io/f/03a22b28-7bb8-41c2-9093-f515c0585028" method="POST">
         <div class="user-details">
+          <!--Name & Username Input-->
           <div class="input-box">
             <span class="details">Full Name</span>
-            <input type="text" placeholder="Enter your name" required>
+            <input name="name" type="text" placeholder="Enter your name" required>
           </div>
           <div class="input-box">
             <span class="details">Username</span>
-            <input type="text" placeholder="Enter your username" required>
+            <input name="username" type="text" placeholder="Enter your username" required>
           </div>
+
           <div class="input-box">
             <span class="details">Email</span>
-            <input type="text" placeholder="Enter your email" required>
+            <input name-="emial" type="text" placeholder="Enter your email" required>
           </div>
+
           <div class="input-box">
             <span class="details">Phone Number</span>
-            <input type="text" placeholder="Enter your number" required>
+            <input name="number" type="text" placeholder="Enter your number" required>
           </div>
+
           <div class="input-box">
             <span class="details">Password</span>
-            <input type="text" placeholder="Enter your password" required>
+            <input name="password" type="text" placeholder="Enter your password" required>
           </div>
+
           <div class="input-box">
             <span class="details">Confirm Password</span>
-            <input type="text" placeholder="Confirm your password" required>
+            <input name="confirm-password" type="text" placeholder="Confirm your password" required>
           </div>
         </div>
+        <!--Gender Selection Button-->
         <div class="gender-details">
-          <input type="radio" name="gender" id="dot-1">
-          <input type="radio" name="gender" id="dot-2">
-          <input type="radio" name="gender" id="dot-3">
+          <input name="female-gender" type="radio" name="gender" id="dot-1">
+          <input name="male-gender" type="radio" name="gender" id="dot-2">
+          <input name="custom-gender" type="radio" name="gender" id="dot-3">
           <span class="gender-title">Gender</span>
           <div class="category">
             <label for="dot-1">
@@ -58,8 +65,9 @@
             </label>
           </div>
         </div>
+        <!--Submission Button -->
         <div class="button">
-          <input type="submit" value="Register">
+          <input name="submit" type="submit" value="Register">
         </div>
       </form>
     </div>
