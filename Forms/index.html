@@ -8,89 +8,61 @@
   <title></title>
 </head>
 <body>
-    <div class="main">
-        <form action="https://getform.io/f/4a77db24-5e4d-4834-8028-14dfb58acb50" method="POST">
-          <h2 class="first_title">Sign Up</h2>
-          <p class="first_sub_title" id="sub_title">It's quick and easy.</p>
-          <hr />
-          <!--Input section start-->
-          <div class="input">
-            <input type="first_name" placeholder="First Name" class="first_name" id="all" required minlength="6" maxlength="40"/>
-            <input type="last_name" placeholder="Last Name" class="last_name" id="all" required  minlength="6" maxlength="40"/>
-            <br />
-            <input type="email" placeholder="Mobile number or email address" id="all1" required  minlength="6" maxlength="40" />
-            <br />
-            <input type="password" placeholder="New password" id="all1" required  minlength="6" maxlength="40"/>
-            <br />
+  <div class="container">
+    <div class="title">Contact</div>
+    <div class="content">
+      <form action="https://getform.io/f/03a22b28-7bb8-41c2-9093-f515c0585028" method="POST">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
           </div>
-          <!--Input section end-->
-          <!--Date of Birth section start-->
-          <p class="sub_title_2" id="sub_title">Date of Birth</p>
-          <select>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-            <option>6</option>
-            <option>7</option>
-            <option>8</option>
-            <option>9</option>
-            <option>10</option>
-          </select>
-          <select>
-            <option>Jan</option>
-            <option>Feb</option>
-            <option>Mar</option>
-            <option>Apr</option>
-            <option>May</option>
-            <option>Jun</option>
-            <option>Jul</option>
-            <option>Aug</option>
-            <option>Sep</option>
-            <option>Oct</option>
-            <option>Nov</option>
-            <option>Dec</option>
-          </select>
-          <select>
-            <option>2022</option>
-            <option>2021</option>
-            <option>2020</option>
-            <option>2019</option>
-            <option>2018</option>
-            <option>2017</option>
-            <option>2016</option>
-            <option>2015</option>
-            <option>2014</option>
-            <option>2013</option>
-            <option>2012</option>
-            <option>2011</option>
-          </select>
-          <!--Date of Birth section end-->
-          <br />
-          <!--Gender section start-->
-          <p class="sub_title_3" id="sub_title">Gender</p>
-          <div class="female" id="all_gender">
-            <label for="female"><b>Female</b> </label>
-            <input type="radio" name="gender" value="female" />
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required>
           </div>
-          <div class="male" id="all_gender">
-            <label for="male"><b>Male</b></label>
-            <input type="radio" name="gender" value="male" />
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required>
           </div>
-          <div class="other" id="all_gender">
-            <label for="other"><b>Custom</b></label>
-            <input type="radio" name="gender" value="other" />
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required>
           </div>
-          <!--Gender section end-->
-          <br />
-          <p class="sub_title_4">
-            By clicking Sign Up, you agree to our <a href="#"> Terms, Data Policy</a> and
-            <a href="">Cookie</a>
-            Policy. You may receive SMS notifications from us and can opt out at any time.
-          </p>
-          <input type="submit" value="Signup" class="submit" />
-        </form>
-      </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="text" placeholder="Enter your password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="text" placeholder="Confirm your password" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
