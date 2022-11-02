@@ -1,0 +1,19 @@
+.site-hero {
+    height: 80vh;
+    background-image:url("../assets/images/branding/wood_bkgrnd.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.hero-text {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    font-weight: 350;
+    font-variant: small-caps;
+    text-align: center;
+    color: aliceblue;
+}
