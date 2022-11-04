@@ -56,6 +56,10 @@ nav ul {
   margin:0px;
 }
 
+
+#carouselExampleIndicators {
+  margin: 9% ;
+}
 nav li {
   list-style-type: none;
 }
