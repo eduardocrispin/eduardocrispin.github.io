@@ -1,0 +1,20 @@
+.site-hero {
+    height: 80vh;
+    background-image:url("../assets/images/branding/anne-preble-SAPvKo12dQE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.hero-text {
+    font-family: 'Lobster', cursive;
+    font-size: larger;
+    font-weight: 350;
+    font-variant: normal;
+    text-align: center;
+    color: #ffffffec;
+
+}
