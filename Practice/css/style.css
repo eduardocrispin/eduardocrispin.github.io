@@ -1,15 +1,5 @@
-.card {
-    background-color: rgb(33, 33, 33);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     border-left: solid red ;
-     border-right: solid yellow;
-     border-top: solid green;
-     border-bottom: solid blue;
-     color: white;
-     margin: 50px;
+main {
+    display: flex;
+    justify-content: space-between;
 }
 
-.card-img-top {
-    border-radius: 12px;
-
-}

@@ -1,0 +1,19 @@
+
+
+body {
+    margin: 0;
+}
+
+#hero {
+    font-family: 'Rubik Distressed', cursive;
+    background-image: url("https://www.kxan.com/wp-content/uploads/sites/40/2020/10/2000x1125sr.jpg?strip=1");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(228, 142, 92);
+}
+
+#halloween {
+    color: rgb(219, 234, 247);
+}
