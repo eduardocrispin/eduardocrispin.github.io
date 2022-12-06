@@ -37,6 +37,22 @@
   transform: scale(1.05);
 }
 
+#modelImage1 {
+  width: 500px;
+}
+
+#modelImage2 {
+  width: 500px;
+}
+
+#modelImage3 {
+  width: 500px;
+}
+
+#modelImage4 {
+  width: 500px;
+}
+
 /*
   When the screen becomes very narrow, reconfigure images to be sized
   based on width rather than height.

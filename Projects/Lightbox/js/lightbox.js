@@ -12,9 +12,15 @@ function openLightbox() {
     lightbox.src = this.src;
 }
 
-let coffeeImage = document.getElementById('coffeeImage1');
+let modelImage1 = document.getElementById('modelImage1');
+let modelImage2 = document.getElementById('modelImage2');
+let modelImage3 = document.getElementById('modelImage3');
+let modelImage4 = document.getElementById('modelImage4');
 //When you click image, run openLightBox
-coffeeImage.onclick = openLightbox;
+modelImage1.onclick = openLightbox;
+modelImage2.onclick = openLightbox;
+modelImage3.onclick = openLightbox;
+modelImage4.onclick = openLightbox;
 
 //Make Function to make closer clickable 
 function closeLightbox() {
