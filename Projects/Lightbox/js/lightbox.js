@@ -12,15 +12,17 @@ function openLightbox() {
     lightbox.src = this.src;
 }
 
-let modelImage1 = document.getElementById('modelImage1');
-let modelImage2 = document.getElementById('modelImage2');
-let modelImage3 = document.getElementById('modelImage3');
-let modelImage4 = document.getElementById('modelImage4');
-//When you click image, run openLightBox
-modelImage1.onclick = openLightbox;
-modelImage2.onclick = openLightbox;
-modelImage3.onclick = openLightbox;
-modelImage4.onclick = openLightbox;
+//Set single variable to get all images in gallery
+let galleryImages = document.getElementsByClassName("galleryImage");
+
+//Create loop to cycle through images and run onclick event per image
+
+for (let i = 0; i < galleryImages.length; i++ ) {
+    let galleryImage = galleryImages[i];
+    galleryImage.onclick = openLightbox;
+}
+
+
 
 //Make Function to make closer clickable 
 function closeLightbox() {
@@ -28,5 +30,12 @@ function closeLightbox() {
     lightbox.src = "" ;
 }
 
-lightboxCloser.onclick = closeLightbox;
-lightboxBackground.onclick = closeLightbox;
+let closers = document.getElementsByClassName('closer');
+
+for (let i = 0; i < closers.length; i++ ) {
+    let closer = closers[i];
+    closer.onclick = closeLightbox;
+}
+
+//lightboxCloser.onclick = closeLightbox;
+//lightboxBackground.onclick = closeLightbox;
