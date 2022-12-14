@@ -190,13 +190,17 @@ outer-grid {
  }
 
 
-
+.fooooter {
+    margin: 12px;
+    text-align: center;
+}
 
 
 footer ul li a{
 
     opacity: 75%;
     text-decoration: none;
+    margin: 12px;;
   }
   
   footer ul li a:hover{
