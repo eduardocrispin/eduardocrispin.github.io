@@ -188,6 +188,21 @@ outer-grid {
     width: 100%;
     padding: 10px;
  }
+
+
+
+
+
+footer ul li a{
+
+    opacity: 75%;
+    text-decoration: none;
+  }
+  
+  footer ul li a:hover{
+    opacity: 1;
+  }
+  
 @media only screen and (min-width: 768px) {
     body {
         font-size: 16px;
